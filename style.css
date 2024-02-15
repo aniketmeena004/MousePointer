@@ -1,0 +1,40 @@
+@font-face {
+    font-family: a;
+    src: url(Robus-BWqOd.otf);
+}
+h1{
+    margin-bottom: 100px;
+    font-family: a;
+    font-size: 150px;
+    font-weight: 10;
+    text-align: center;
+    color: rgb(146, 195, 48);
+}
+
+#container{
+    text-align: center;
+    /* background-color: red; */
+}
+body{
+    background-color: rgba(153, 205, 50, 0.472);
+}
+label{
+    /* font-family: Verdana; */
+    font-size: 150px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+    color: rgb(146, 195, 48);;
+}
+#incrementer{
+    cursor: pointer;
+}
+button{
+    padding: 10px 100px;
+    background-color: greenyellow;
+    transition: background-color 0.5s;
+}
+button:active{
+    background-color: green;
+}
+button:hover{
+    background-color: rgba(0, 128, 0, 0.634);
+}
