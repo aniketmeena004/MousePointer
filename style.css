@@ -4,10 +4,12 @@
 }
 h1{
     margin-bottom: 100px;
+    margin-left: 6%;
     font-family: a;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: 10;
-    text-align: center;
+    text-align: left;
+    text-shadow: 5px 5px 5px black;
     color: rgb(146, 195, 48);
 }
 
@@ -20,12 +22,19 @@ body{
 }
 label{
     /* font-family: Verdana; */
-    font-size: 150px;
+    font-size: 4em;
     text-shadow: 0px 0px 20px rgb(255, 255, 255);
     color: rgb(146, 195, 48);;
+    background-color: rgba(255, 255, 255, 0.504);
+    border-radius: 15px;
+    padding: 10px;
 }
 #incrementer{
     cursor: pointer;
+}
+#reset{
+    cursor: pointer;
+
 }
 button{
     padding: 10px 100px;
