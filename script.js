@@ -24,6 +24,7 @@ function calculateSpeed() {
 function resetClickData() {
     clicks = 0;
     startTime = null;
+    alert("Speed Test is Done!!-check your score")
 }
 
 function reset() {
