@@ -28,6 +28,7 @@ label{
     background-color: rgba(255, 255, 255, 0.504);
     border-radius: 15px;
     padding: 10px;
+    transition: all ease-in-out 1s;
 }
 #incrementer{
     cursor: pointer;
@@ -40,20 +41,19 @@ button{
     padding: 10px 100px;
     /* width: 70%; */
     background-color: greenyellow;
-    transition: background-color 0.5s;
+    transition: background-color 0.1s;
 }
 button:active{
-    background-color: green;
-}
-button:hover{
     background-color: rgba(0, 128, 0, 0.634);
+    
 }
+
 
 
 
 @media (max-width: 760px) {
     body{
-
+        background-color: blue;
     }
     label{
         font-size: 1.5em;
