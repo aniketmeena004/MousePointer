@@ -4,6 +4,8 @@ let startTime;
 
 function handleClick() {
     clicks++;
+    document.getElementById('display').innerText = `Test is Started !!!`;
+
 
     if (!startTime) {
         startTime = new Date();
